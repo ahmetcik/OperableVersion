@@ -1,6 +1,5 @@
 # OperableVersion
-Class to make a variables of type version (e.g. '1.2.1') comparable with each other (e.g. using '>=') as well as allow arithmetic operations (e.g. '+') on them. For example, we want that '1.4.' < '2.1.2.7' = True, and '1.4 + '2.1.2.7' = '3.5.2.7', where '+' was applied elementwise.
-
+Class to make a variables of type version (e.g. '1.2.1') comparable with each other (e.g. using '>=') as well as allow arithmetic operations (e.g. '+') on them. For example:
 
 ```py
 from version_operable import VersionOperable
