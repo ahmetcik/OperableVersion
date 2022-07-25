@@ -13,3 +13,5 @@ print(x + y)
 print(x >= y)
 # True
 ```
+
+The module can further be extended for individual purpose. Not that it is not optimized with respect to performance. 
